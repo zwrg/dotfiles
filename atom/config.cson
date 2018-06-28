@@ -1,0 +1,51 @@
+"*":
+  "atom-beautify":
+    c:
+      configPath: "/home/rafal/.atom/packages/atom-beautify/src/beautifiers/uncrustify/mycpp.cfg"
+    cpp:
+      configPath: "/home/rafal/.atom/packages/atom-beautify/src/beautifiers/uncrustify/mycpp.cfg"
+    python:
+      sort_imports: true
+    sql:
+      identifiers: "lower"
+      keywords: "lower"
+  "atom-clock":
+    dateFormat: " MMMM Do, dddd, HH:mm:ss "
+    locale: "pl"
+    refreshInterval: 1
+    showClockIcon: true
+  "atom-material-ui":
+    fonts:
+      fontSize: 15
+    ui: {}
+  "atom-python-run": {}
+  "atom-slime": {}
+  "autocomplete-python":{}
+  "build-cmake": {}
+  core:
+    closeDeletedFileTabs: true
+    telemetryConsent: "no"
+    titleBar: "custom"
+  editor:
+    fontSize: 13
+    softWrap: true
+    titleBar: "custom"
+  "exception-reporting":
+    softWrap: "true"
+  "gpp-compiler":
+    debug: true
+  "linter-python":
+    ignoreCodes: "W0611,E501"
+    withPep8: true
+  "linter-ui-default":
+    showPanel: true
+  "markdown-preview":
+    useGitHubStyle: true
+  "platformio-ide-terminal":
+    core: {}
+    style:
+      fontFamily: "Meslo LG M for Powerline"
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false

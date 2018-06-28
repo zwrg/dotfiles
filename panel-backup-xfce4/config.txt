@@ -1,0 +1,80 @@
+/configver 2
+/panels [<0>, <1>]
+/panels/panel-0/autohide-behavior uint32 0
+/panels/panel-0/background-alpha uint32 100
+/panels/panel-0/background-style uint32 0
+/panels/panel-0/enter-opacity uint32 100
+/panels/panel-0/leave-opacity uint32 100
+/panels/panel-0/length uint32 100
+/panels/panel-0/length-adjust true
+/panels/panel-0/mode uint32 0
+/panels/panel-0/plugin-ids [<1>, <12>, <2>, <3>, <4>, <5>, <6>, <7>, <8>, <9>, <10>, <11>, <14>, <13>]
+/panels/panel-0/position 'p=6;x=0;y=0'
+/panels/panel-0/position-locked true
+/panels/panel-0/size uint32 25
+/panels/panel-0/span-monitors false
+/panels/panel-1/autohide-behavior uint32 1
+/panels/panel-1/background-alpha uint32 0
+/panels/panel-1/length uint32 4
+/panels/panel-1/plugin-ids [<17>, <24>, <18>, <23>, <19>, <20>, <21>]
+/panels/panel-1/position 'p=10;x=687;y=743'
+/panels/panel-1/position-locked true
+/plugins/plugin-1 'whiskermenu'
+/plugins/plugin-10 'separator'
+/plugins/plugin-10/expand false
+/plugins/plugin-10/style uint32 0
+/plugins/plugin-11 'clock'
+/plugins/plugin-11/digital-format '%A %d %B %Y, %H:%M:%S'
+/plugins/plugin-11/flash-separators false
+/plugins/plugin-11/mode uint32 2
+/plugins/plugin-11/show-meridiem false
+/plugins/plugin-11/show-seconds false
+/plugins/plugin-12 'launcher'
+/plugins/plugin-12/items [<'15302020138.desktop'>, <'15301801131.desktop'>]
+/plugins/plugin-13 'xfce4-notes-plugin'
+/plugins/plugin-14 'actions'
+/plugins/plugin-14/appearance uint32 1
+/plugins/plugin-17 'launcher'
+/plugins/plugin-17/disable-tooltips false
+/plugins/plugin-17/items [<'15301958241.desktop'>]
+/plugins/plugin-17/show-label false
+/plugins/plugin-18 'launcher'
+/plugins/plugin-18/items [<'15301958704.desktop'>]
+/plugins/plugin-19 'launcher'
+/plugins/plugin-19/items [<'15301958855.desktop'>]
+/plugins/plugin-2 'tasklist'
+/plugins/plugin-2/flat-buttons true
+/plugins/plugin-20 'launcher'
+/plugins/plugin-20/items [<'15301959086.desktop'>]
+/plugins/plugin-21 'launcher'
+/plugins/plugin-21/items [<'15301959247.desktop'>]
+/plugins/plugin-23 'launcher'
+/plugins/plugin-23/items [<'15302020509.desktop'>]
+/plugins/plugin-24 'launcher'
+/plugins/plugin-24/items [<'153020252210.desktop'>]
+/plugins/plugin-3 'separator'
+/plugins/plugin-3/expand true
+/plugins/plugin-3/style uint32 0
+/plugins/plugin-4 'systray'
+/plugins/plugin-4/names-visible [<'network'>, <'networkmanager applet'>, <'blueman-applet'>, <'thunar'>]
+/plugins/plugin-4/show-frame false
+/plugins/plugin-4/size-max uint32 22
+/plugins/plugin-5 'notification-plugin'
+/plugins/plugin-6 'indicator'
+/plugins/plugin-6/blacklist [<'libappmenu.so'>]
+/plugins/plugin-6/known-indicators [<'com.canonical.indicator.messages'>]
+/plugins/plugin-7 'statusnotifier'
+/plugins/plugin-7/icon-size uint32 22
+/plugins/plugin-7/known-items [<'blueman'>, <'nm-applet'>]
+/plugins/plugin-7/menu-is-primary true
+/plugins/plugin-7/mode-whitelist false
+/plugins/plugin-7/single-row false
+/plugins/plugin-7/square-icons false
+/plugins/plugin-7/symbolic-icons true
+/plugins/plugin-8 'power-manager-plugin'
+/plugins/plugin-9 'pulseaudio'
+/plugins/plugin-9/enable-keyboard-shortcuts true
+/plugins/plugin-9/enable-mpris true
+/plugins/plugin-9/mixer-command 'pavucontrol'
+/plugins/plugin-9/mpris-players 'parole'
+/plugins/plugin-9/show-notifications true

@@ -1,0 +1,1 @@
+- better to apply manually these options in case it might _erase_ yours

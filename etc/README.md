@@ -1,0 +1,1 @@
+- for X11 just copy paste when you **do not** have `80-xxx` priority. User for natural scroll in xubuntu 

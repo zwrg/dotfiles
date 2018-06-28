@@ -1,0 +1,8 @@
+command-t
+nerdcommenter
+supertab
+vim-multiple-cursors
+lightline
+nerdtree
+vim-gitgutter
+vim-ruby
