@@ -1,0 +1,20 @@
+#Written by MATE Terminal 1.20.0
+
+[MATE Terminal Configuration]
+Version=1
+CompatVersion=1
+Windows=Window0;
+
+[Window0]
+MenubarVisible=true
+Role=mate-terminal-window-3326-1574756021-1555396976
+ActiveTerminal=Terminal0x560f7131f430
+Geometry=100x40+1000+148
+Terminals=Terminal0x560f7131f430;
+
+[Terminal0x560f7131f430]
+ProfileID=default
+WorkingDirectory=/home/user/dotfiles
+Zoom=1
+Width=100
+Height=40
