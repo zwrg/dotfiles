@@ -8,7 +8,8 @@
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+# ZSH_THEME="agnoster"
+ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -36,7 +37,7 @@ ZSH_THEME="agnoster"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
- ENABLE_CORRECTION="true"
+  ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -64,10 +65,9 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  node
+  npm
   bundler
- # zsh-wakatime
-#  zsh-autosuggestions
-#  zsh-completions
   zsh-syntax-highlighting
   common-aliases
   debian
@@ -94,9 +94,6 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -106,4 +103,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /home/user/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#autoload -U compinit && compinit
+PATH=$PATH:~/jre/bin
+PATH=$PATH:~/node/bin
+# SPACESHIP config
+# SPACESHIP_PROMPT_SEPARATE_LINE="false"
+SPACESHIP_PROMPT_ADD_NEWLINE="false"
+SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true"
+# SPACESHIP_TIME_SHOW="true"
+# SPACESHIP_USER_SHOW="always"
+SPACESHIP_BATTERY_THRESHOLD="30"
+SPACESHIP_DIR_TRUNC="2"
+export EDITOR='vim'
